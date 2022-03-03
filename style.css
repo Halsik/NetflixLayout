@@ -1,0 +1,153 @@
+
+
+html, body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.box {
+    height: 100%;
+    background-image: url(1.jpg);
+    background-color: rgba(0, 0, 0, 0.699);
+}
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-color:rgba(0, 0, 0, 0.63);
+}
+.login {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 650px;
+    width: 460px;
+    top: 90px;
+    left: 490px;
+}
+.header {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+} 
+.mail {
+    left: 70px;
+    top: 50px;
+    position: absolute;
+    top: 150px;
+    font-size: 15px;
+    padding: 15px 20px;
+    width: 270px;
+    background-color: rgb(58, 58, 58);
+    border: 1px solid rgb(58, 58, 58);
+    color: white;
+}
+.haslo {
+    left: 70px;
+    top: 50px;
+    position: absolute;
+    top: 220px;
+    font-size: 15px;
+    padding: 15px 20px;
+    width: 270px;
+    background-color: rgb(58, 58, 58);
+    border: 1px solid rgb(58, 58, 58);
+    color: white;
+} 
+.password {
+    left: 70px;
+    top: 50px;
+    position: absolute;
+    top: 310px;
+    font-size: 15px;
+    padding: 15px 20px;
+    width: 314px;
+    background-color:red;
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+} 
+.password:hover {
+    cursor: pointer;
+}     
+#check {
+    left: 70px;
+    top: 50px;
+    position: absolute;
+    top: 370px;
+    font-size: 15px;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.remember {
+    left: 100px;
+    margin-top: 1px;
+    position: absolute;
+    top: 370px;
+    font-size: 13px;
+    color: rgb(156, 153, 153);
+    
+}
+.Help {
+    left: 240px;
+    margin-top: 1px;
+    position: absolute;
+    top: 370px;
+    font-size: 13px;
+    color: rgb(156, 153, 153);
+    transition-duration: 0.2s;
+}
+.Help:hover {
+    text-decoration: underline;
+}
+.facebook {
+    left: 74px;
+    height: 23px;
+    position: absolute;
+    top: 400px;
+    
+}
+.facebook1 {
+    left: 110px;
+    position: absolute;
+    top: 390px;
+    color: rgb(121, 120, 120);
+    font-size: 13px;
+}
+.footer {
+    left: 74px;
+    position: absolute;
+    top: 430px;
+    color: rgb(121, 120, 120);
+    font-size: 17px;
+}
+.footer1 {
+    left: 74px;
+    position: absolute;
+    top: 455px;
+    color: white;
+    font-size: 17px;
+}
+.footer1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.netflix {
+    background-image: url(2.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    left: 32px;
+    top: 19px;
+}
